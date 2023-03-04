@@ -1,0 +1,59 @@
+{"intents":
+[
+            {
+             "tag":"greeting",
+             "patterns": ["hello","hey","hi","good day","greetings","what's up?","how is it going", "nice to meet you"],
+             "responses":["hello","hey!","what can i do for you?","hi!!,how can i help u?"]
+            },
+            {
+             "tag":"goodbye",
+             "patterns": ["cya","see you later","goodbye","have a good day","bye","cao","see ya", "meet u later"],
+             "responses":["have a nice day","goodbye","ok Bye!!"]
+            },
+            {
+              "tag":"about",
+              "patterns": ["who are you"],
+              "responses":["I'm Bot I will help you with college information"]
+             },
+            {
+             "tag":"timings",
+             "patterns": ["what is the college timings for students?"],
+             "responses":["college starts at 9:40 AM and ends at 4:10 PM"]
+            },
+            {
+              "tag":"location",
+             "patterns": ["Where is college located?", "location of college"],
+             "responses":["MLRIT : Dundigal, Gandimaisamma Medchal-Malkajgiri, Dist, Hyderabad, Telangana 500043"]
+            },
+            {
+             "tag":"history",
+             "patterns": ["when did the college constructed? ", "year"],
+             "responses":["The college is construted and started in 2005 by Marri Rajashekar Reddy under his his father name"]
+            },
+            {
+             "tag":"facilities",
+             "patterns": ["facilities provided by the college?"],
+             "responses":["College has Library, Ground, Indoor, Hostel , Free Wi-Fi, Projectors."]
+            },
+            {
+             "tag":"attendance",
+             "patterns": ["Whats is the minimum percentage of attendance should a student maintain?"],
+             "responses":["A Student should maintain a minium percentage of 75."]
+            },
+            {
+             "tag":"attendance",
+             "patterns": ["How can a student know his attendance?", "know attendance of students?",],
+             "responses":["A student can know his attendance by loging into 'https://erp.mlrinstitutions.ac.in/',"]
+            },
+            {
+              "tag":"marks",
+              "patterns": ["how to know marks?", "website for marks?"],
+              "responses":["A student can know his marks by loging into 'https://exams.mlrinstitutions.ac.in/',"]
+             },
+             {
+              "tag":"clubs",
+              "patterns": ["whats are the clubs?", "fests", "events"],
+              "responses":["Came club, literacy club, scope club, CODE club, CIE and these clubs conduct events and fests"]
+             }
+]}
+        
